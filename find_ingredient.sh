@@ -48,3 +48,4 @@ echo "Found ${count} product(s) containing: \"${INGREDIENT}\""
 # cleanup
 rm -f "$tmp_csv" "$tmp_matches"
 
+
