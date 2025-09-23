@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 # Usage: ./find_ingredient.sh -i "<ingredient>" -d /path/to/folder
 # Input: products.csv (TSV) must exist inside the folder.
 # Output: product_name<TAB>code for matches, then a final count line.
@@ -47,5 +47,6 @@ echo "----"
 echo "Found ${count} product(s) containing: \"${INGREDIENT}\""
 # cleanup
 rm -f "$tmp_csv" "$tmp_matches"
+
 
 
